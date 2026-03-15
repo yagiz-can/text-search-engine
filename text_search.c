@@ -74,7 +74,7 @@ int main() {
     char dosya_adi1[100];
     int secim;
 
-    printf(RENK_YAZI "======= KELIME ARAMA PROGRAMI =======\n" RENK_RESET);
+    printf(RENK_YAZI "\n======= KELIME ARAMA PROGRAMI =======\n" RENK_RESET);
 
     printf("Arama yapilacak dosyanin adini giriniz:\n");
     fgets(dosya_adi1,sizeof(dosya_adi1),stdin);
